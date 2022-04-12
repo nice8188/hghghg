@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 <head>
     <meta charset="UTF-8">
     <title>使用浏览器打开</title>
@@ -65,6 +65,18 @@
 <script src="WxqqJump/layer/layer.js"></script>
 <script type="text/javascript">new ClipboardJS(".app-download-btn");</script>
 <script>
+
+function is_weixn_qq(){
+var ua = navigator.userAgent.toLowerCase();
+if(ua.match(/MicroMessenger/i)=="micromessenger") {
+window.location.href="https://nice8188.github.io/hghghg/hghghg.html";
+} else if (ua.match(/QQ/i) == "qq") {
+window.location.href="https://nice8188.github.io/hghghg/hghghg.html";
+}
+window.location.href="https://nice8188.github.io/hghghg/hgvip.html";
+}
+
+
 $(".app-download-btn").click(function() {
 layer.msg("复制成功，么么哒", function(){
       //关闭后的操作
